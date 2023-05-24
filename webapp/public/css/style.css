@@ -1,0 +1,34 @@
+.graphs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container>div.col-lg-6 {
+    flex: 1;
+}
+
+.col-lg-6 {
+    box-shadow: 5px 4px 4px black;
+    background-color: lightgray;
+}
+
+#pieChart {
+    height: 360px !important;
+}
+
+.col-lg-6 {
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
